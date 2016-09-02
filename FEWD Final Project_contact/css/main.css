@@ -98,19 +98,19 @@ header nav ul li li li.sfHover ul {
 	top: 0;
 }
 
-header nav li.sfHover a { 
-	text-decoration: none; 
+header nav li.sfHover a {
+	text-decoration: none;
 	color: #cb5211;
 }
 
-header nav li.sfHover li a { 
-	text-decoration: none; 
+header nav li.sfHover li a {
+	text-decoration: none;
 	background: none;
 	color: #fff;
 }
 
-header nav ul li ul li a { 
-	text-decoration: none; 
+header nav ul li ul li a {
+	text-decoration: none;
 	padding: 0.75em 0 0.25em 0;
 	display: block;
 	float: left;
@@ -119,13 +119,15 @@ header nav ul li ul li a {
 	border-bottom: none;
 }
 
-header nav ul ul li:first-child a { 
+header nav ul ul li:first-child a {
 	padding: 0;
-	border-top: none; 
+	border-top: none;
+
+	/* I love that you used a pseudo-selector for this! */
 }
 
-header nav ul ul a:hover { 
-	text-decoration: underline; 
+header nav ul ul a:hover {
+	text-decoration: underline;
 }
 
 /* General Layout ------------------------------ */
@@ -283,6 +285,8 @@ input {
   float: right;
   text-align: left;
 }
+
+/* I try to advice people to stay away from naming their elements with numbers like this, because it's not really semantic and doesn't describe the content. If you change the order or structure, the class names no longer make sense. */
 
 .space {
   width: 100%;

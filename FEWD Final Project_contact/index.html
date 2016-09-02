@@ -11,16 +11,20 @@
 
 </head>
 
+<!-- Your indentation is fantastic! Way to go! This is often really hard for people to get the hang of. -->
+
 <body class="home blog" id="top">
 	<div id="block-wrapper">
 		<div id="content-wrapper">
-			<header class="">
+			<header>
+				<!-- You don't always need a class on an element, so if you're not using it, definitely be sure to remove class=""; it's unnecessary -->
 				<div class="wrapper">
 					<div class="logo">
 						<h2>HATCHED | DC </h2>
 					</div>
 					<nav>
-						<ul id="menu-main-nav" class="">
+						<ul id="menu-main-nav">
+							<!-- Why did you name them menu-item-26, 27 and 94? It doesn't look like you're using this anywhere in your CSS, so these IDs aren't actually doing anything. -->
 							<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26">
 								<a href="http://www.hatcheddc.com/Portfolio">Portfolio</a>
 							</li>
@@ -30,8 +34,8 @@
 							<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94">
 								<a href="http://www.hatcheddc.com/Get-In-Touch">Get in Touch</a>
 							</li>
-						</ul>				
-					</nav>				
+						</ul>
+					</nav>
 				</div>
 			</header>
 
@@ -47,17 +51,17 @@
 						<input type="hidden" name="good_url" value="success.html">
 						<input type="hidden" name="bad_url" value="failure.html">
 						<input type="hidden" name="required" value="realname:Your name,email:Your email address">
-						<input type="hidden" name="subject" value="HatchedDC.com Project Inquiry">		
+						<input type="hidden" name="subject" value="HatchedDC.com Project Inquiry">
 
 						<div class="contactCol1">
 							<input name="realname" type="text" id="name" placeholder="Name">
-						</div>	
+						</div>
 						<div class="contactCol2">
 							<input name="email" type="text" id="email" placeholder="Email">
 						</div>
 						<div class="contactCol3">
 							<input name="website" type="text" id="website" placeholder="Website">
-						</div>    
+						</div>
 
 						<div class="contactCol1">
 							<input name="timeline" type="text" id="timeline" placeholder="Timeline">
@@ -72,7 +76,7 @@
 
 						<div class="comments">
 							<textarea name="textarea" id="comments" style="height:100px;" placeholder="Tell me a little about your project..."></textarea>
-						</div>		
+						</div>
 						<div class="submit">
 							<input name="Submit" type="submit" class="submitBtn" value="send">
 						</div>
