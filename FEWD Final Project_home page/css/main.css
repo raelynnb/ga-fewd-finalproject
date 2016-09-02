@@ -1,3 +1,15 @@
+/*
+
+Hey Rachel!
+Great job on this assignment, your final project looks great. A few thoughts for you:
+
+For something like this, you definitely want to keep all of your files within one main directory instead of separating out each page with a separate file structure. You want to have one main CSS file that you reference on all your pages, which is super important since you are going to want to reuse your styles on all your pages! The less copying and pasting you have to do, the better.
+
+You would also name all your html pages differently since they would all be in the same folder. You would have index.html, about.html, contact.html, etc.
+
+Also, I would definitely keep your plugins separate from your main CSS file. Feel free to save them locally, but put them in a separate CSS file just like you did with your flickity.css file and reference it in your HTML. You want the CSS in your main css file to be exclusively code you've written yourself.
+
+*/
 
 /* CSS Reset, Font setup and Plugins ---------------- */
 
@@ -99,19 +111,19 @@ header nav ul li li li.sfHover ul {
 	top: 0;
 }
 
-header nav li.sfHover a { 
-	text-decoration: none; 
+header nav li.sfHover a {
+	text-decoration: none;
 	color: #cb5211;
 }
 
-header nav li.sfHover li a { 
-	text-decoration: none; 
+header nav li.sfHover li a {
+	text-decoration: none;
 	background: none;
 	color: #fff;
 }
 
-header nav ul li ul li a { 
-	text-decoration: none; 
+header nav ul li ul li a {
+	text-decoration: none;
 	padding: 0.75em 0 0.25em 0;
 	display: block;
 	float: left;
@@ -120,13 +132,13 @@ header nav ul li ul li a {
 	border-bottom: none;
 }
 
-header nav ul ul li:first-child a { 
+header nav ul ul li:first-child a {
 	padding: 0;
-	border-top: none; 
+	border-top: none;
 }
 
-header nav ul ul a:hover { 
-	text-decoration: underline; 
+header nav ul ul a:hover {
+	text-decoration: underline;
 }
 
 
@@ -169,16 +181,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-webkit-transform: translateY(240px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-webkit-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-webkit-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-webkit-transform: translateY(0);
 	}
@@ -188,16 +200,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-moz-transform: translateY(240px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-moz-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-moz-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-moz-transform: translateY(0);
 	}
@@ -208,16 +220,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-o-transform: translateY(240px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		-o-transform: translateY(-30px);
 	}
-	
+
 	80% {
 		-o-transform: translateY(10px);
 	}
-	
+
 	100% {
 		-o-transform: translateY(0);
 	}
@@ -228,16 +240,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		transform: translateY(240px);
 	}
-	
+
 	60% {
 		opacity: 1;
 		transform: translateY(-30px);
 	}
-	
+
 	80% {
 		transform: translateY(10px);
 	}
-	
+
 	100% {
 		transform: translateY(0);
 	}
@@ -253,12 +265,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	0% {
 		-webkit-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-webkit-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
@@ -269,12 +281,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	0% {
 		-moz-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-moz-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-moz-transform: translateY(2000px);
@@ -285,12 +297,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	0% {
 		-o-transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		-o-transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		-o-transform: translateY(2000px);
@@ -301,12 +313,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	0% {
 		transform: translateY(0);
 	}
-	
+
 	20% {
 		opacity: 1;
 		transform: translateY(-20px);
 	}
-	
+
 	100% {
 		opacity: 0;
 		transform: translateY(2000px);
@@ -320,7 +332,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 	animation-name: bounceOutDown;
 }
 @-webkit-keyframes tada {
-	0% {-webkit-transform: scale(1);}	
+	0% {-webkit-transform: scale(1);}
 	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
@@ -328,7 +340,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-moz-keyframes tada {
-	0% {-moz-transform: scale(1);}	
+	0% {-moz-transform: scale(1);}
 	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
@@ -336,7 +348,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @-o-keyframes tada {
-	0% {-o-transform: scale(1);}	
+	0% {-o-transform: scale(1);}
 	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
@@ -344,7 +356,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 @keyframes tada {
-	0% {transform: scale(1);}	
+	0% {transform: scale(1);}
 	10%, 20% {transform: scale(0.9) rotate(-3deg);}
 	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
 	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
@@ -391,7 +403,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-webkit-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-webkit-transform: translateY(0);
@@ -403,7 +415,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-moz-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-moz-transform: translateY(0);
@@ -415,7 +427,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		-o-transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		-o-transform: translateY(0);
@@ -427,7 +439,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		opacity: 0;
 		transform: translateY(2000px);
 	}
-	
+
 	100% {
 		opacity: 1;
 		transform: translateY(0);
@@ -651,7 +663,7 @@ font-weight: 300;
 }
 
 .pushy .highlight {
-background: #333; 
+background: #333;
 padding: 1px 6px 8px 4px;
 color: #fff;
 display: inline-block;
@@ -821,9 +833,9 @@ footer p {
 			max-width: 92%;
 		}
 		#block-wrapper,
-		section.wrapper, 
+		section.wrapper,
 		footer.wrapper,
-		header .wrapper, 
+		header .wrapper,
 		article.wrapper,
 		.wrapper,
 		section.wrapper.main-page {
@@ -831,13 +843,13 @@ footer p {
 			width: 100%;
 		}
 		header .wrapper,
-		.supersize article.wrapper, 
+		.supersize article.wrapper,
 		.home-portfolio article .wrapper,
 		.the-contact .wrapper,
 		.content,
 		.sidebar,
 		.darkest.sub .wrapper,
-		footer .wrapper, 
+		footer .wrapper,
 		#container {
 			float: left;
 			width: 92%;
@@ -845,7 +857,7 @@ footer p {
 			padding-right: 4%;
 			min-height: 0;
 		}
-		
+
 		html.blocked #block-wrapper {
 			width: 92%;
 			margin: 0 auto;
@@ -866,10 +878,10 @@ footer p {
 		}
 	}
 
-	
+
 	@media screen and (max-width: 480px) {
-		.home-portfolio-items article, 
-		.portfolio-item, 
+		.home-portfolio-items article,
+		.portfolio-item,
 		.article-archive,
 		.the-blog article {
 			margin-left: 11%;
